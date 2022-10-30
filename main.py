@@ -1,4 +1,4 @@
-# this will ask wether the user has played the game befor
+# this will ask weather the user has played the game before
 def yes_no(question):
     valid = False
     while not valid:
@@ -13,6 +13,7 @@ def yes_no(question):
 
         else:
             print("please answer yes / no")
+
 # if the user enters no the instructions will be displayed
 def instructions():
    print()
@@ -45,7 +46,7 @@ print()
 show_instructions = yes_no ("have you played this game before:")
 if show_instructions == "no":
     instructions()
-# this will ask use to input what they would like to be tested on and display questions
+# this will ask use to input what they would like to be tested on and display questions it will also keep score of what you got right
 Valid = False
 while not Valid:
     try:
